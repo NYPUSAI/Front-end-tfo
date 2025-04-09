@@ -1,0 +1,42 @@
+{
+    "id": "e6a7be4d-8e35-4377-add3-b4b6de6d6b43",
+    "name": "companyA",
+    "package": {
+      "id": "1a700449-d6a1-4478-83a2-fc6be3bbda11",
+      "name": "tier1",
+      "description": "",
+      "price": "0.10",
+      "max_ai_teams": 1,
+      "max_ivas": 2,
+      "max_agents": 5,
+      "features": {
+        "HR Department": [
+          "Recruitment Team",
+          "Onboarding Team"
+        ],
+        "Sales Department": [
+          "Content Creation",
+          "Customer Relationship Management",
+          "Sales Strategy",
+          "Lead Generation"
+        ],
+        "Marketing Department": [
+          "SEO Team",
+          "Marketing Research Team",
+          "Social Media Team"
+        ]
+      }
+    },
+    "user_details": [
+      {
+        "id": "47fea5d6-e38c-4e2f-846c-8abf16450c70",
+        "username": "admin",
+        "email": "admin@gmail.com"
+      },
+      {
+        "id": "8c7c2a18-7fb2-4743-83df-e3483ac84982",
+        "username": "user1",
+        "email": "user1@gmail.com"
+      }
+    ]
+  }

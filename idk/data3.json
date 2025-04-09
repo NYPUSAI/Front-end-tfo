@@ -1,0 +1,28 @@
+{
+    "_id": "67c937c66f28747f0f998380",
+    "chat_message_id": "396",
+    "session_id": "6",
+    "timestamp": "2025-03-06T11:21:02.675789",
+    "message_number": 3603,
+    "Type": "social media lead",
+    "message": "Preliminary list of leads with basic contact information and confidence scores based on relevance for healthcare companies in Kerala with more than 100 employees",
+    "content": {
+        "leads_social_media": [
+            {
+                "platform": "LinkedIn",
+                "profile_url": "https://www.linkedin.com/company/abc-home-medical-supply-inc",
+                "engagement_score": null,
+                "activity_summary": null
+            },
+            {
+                "platform": "LinkedIn",
+                "profile_url": "https://in.linkedin.com/company/am-sperry",
+                "engagement_score": null,
+                "activity_summary": null
+            }
+        ]
+    },
+    "task_name": "Social Media Data Extraction",
+    "updated_at": "2025-03-06T11:21:02.569000",
+    "user": "AI"
+}

@@ -1,0 +1,196 @@
+{
+    "action": "show_messages",
+    "messages": [
+        {
+            "_id": "67c4154945eabe267298e3bd",
+            "chat_message_id": "389",
+            "session_id": "8",
+            "message_number": 3401,
+            "timestamp": "2025-03-02T13:52:33.072000",
+            "user": "user",
+            "form": {
+                "topic": "tesla model 3 launching"
+            }
+        },
+        {
+            "_id": "67c415506f28747f0f995c58",
+            "chat_message_id": "389",
+            "session_id": "8",
+            "timestamp": "2025-03-02T13:52:40.087319",
+            "message_number": 3402,
+            "Type": "brochure",
+            "message": "Sales brochure for SmartFit Pro Watch is created.",
+            "content": "**SmartFit Pro Watch - Your Ultimate Fitness Companion**\n\n*Key Features:*\n- **24/7 Heart Rate Monitoring**\n- **Sleep Tracking & Analysis**\n- **Waterproof & Sweat Resistant**\n- **Customizable Watch Faces**\n\n*Why Choose SmartFit Pro?*\n- Tracks your fitness with precision\n- Lightweight & stylish design\n- Long-lasting battery life\n\n*Order Now & Stay Fit!*",
+            "task_name": "Sales Brochure Specialist",
+            "updated_at": "2025-03-02T13:52:39.889000",
+            "user": "AI"
+        },
+        {
+            "_id": "67c415586f28747f0f995c59",
+            "chat_message_id": "389",
+            "session_id": "8",
+            "timestamp": "2025-03-02T13:52:48.359604",
+            "message_number": 3403,
+            "Type": "email templates",
+            "message": "Email templates for the Spring Promotion Campaign are created.",
+            "content": [
+                {
+                    "subject": "Exciting Opportunity Inside!",
+                    "body": "Hi {first_name},\n\nI noticed your interest in [specific product/service]. Let's discuss how it can benefit your business.\n\nLooking forward to connecting,\n[Your Name]",
+                    "call_to_action": "Schedule a personalized demo now!"
+                },
+                {
+                    "subject": "Unlock Your Potential with [Product]!",
+                    "body": "Hey {first_name},\n\nYour [specific goal] could be achieved with [Product]. Let's explore this further.\n\nBest regards,\n[Your Name]",
+                    "call_to_action": "Learn more about [Product] benefits"
+                },
+                {
+                    "subject": "Reignite Your Success with [Product]!",
+                    "body": "Hi {first_name},\n\nIt's time to level up your [specific area] with [Product]. Are you ready for the boost?\n\nTake action now!\n[Your Name]",
+                    "call_to_action": "Reclaim your success with [Product]"
+                }
+            ],
+            "task_name": "Email Template Creation",
+            "updated_at": "2025-03-02T13:52:48.225000",
+            "user": "AI"
+        },
+        {
+            "_id": "67c415706f28747f0f995c5a",
+            "chat_message_id": "389",
+            "session_id": "8",
+            "timestamp": "2025-03-02T13:53:11.431681",
+            "message_number": 3404,
+            "Type": "discription",
+            "message": "Product descriptions for SmartFit Pro Watch are created.",
+            "content": [
+                {
+                    "product_name": "SmartFit Pro Watch",
+                    "description": "Experience the ultimate fusion of style and functionality with the SmartFit Pro Watch. This cutting-edge wearable seamlessly integrates advanced health monitoring features with a sleek design that suits your active lifestyle.",
+                    "key_features": [
+                        "Advanced health monitoring including heart rate and blood oxygen levels",
+                        "Customizable watch faces for personalized style",
+                        "Water-resistant and durable construction for everyday wear"
+                    ],
+                    "pain_points_addressed": [
+                        "Stay on top of your health with continuous monitoring",
+                        "Add a touch of personalization to your fitness journey",
+                        "Worry-free durability for all your activities"
+                    ]
+                }
+            ],
+            "task_name": "Product Description Writing",
+            "updated_at": "2025-03-02T13:53:11.319000",
+            "user": "AI"
+        },
+        {
+            "_id": "67c415776f28747f0f995c5b",
+            "chat_message_id": "389",
+            "session_id": "8",
+            "timestamp": "2025-03-02T13:53:18.823717",
+            "message_number": 3405,
+            "Type": "slides",
+            "message": "SmartFit Pro Watch Presentation",
+            "content": [
+                {
+                    "title": "Key Features & Benefits",
+                    "content": "1. 24/7 Heart Rate Monitoring\n2. Sleep Tracking & Analysis\n3. Waterproof & Sweat Resistant\n4. Customizable Watch Faces\n\nWhy Choose SmartFit Pro Watch?\n- Precision fitness tracking\n- Lightweight & stylish design\n- Long-lasting battery life",
+                    "testimonials": []
+                },
+                {
+                    "title": "Customer Success Stories & Testimonials",
+                    "content": "Include real-world stories of individuals benefiting from SmartFit Pro Watch. Testimonials can focus on how the watch has improved their fitness routines and overall health.",
+                    "testimonials": []
+                },
+                {
+                    "title": "Unique Selling Points (USPs)",
+                    "content": "1. Advanced health monitoring including heart rate and blood oxygen levels\n2. Customizable watch faces for personalized style\n3. Water-resistant and durable construction for everyday wear",
+                    "testimonials": []
+                },
+                {
+                    "title": "Closing Call to Action",
+                    "content": "Order your SmartFit Pro Watch now and stay fit! Take the step towards a healthier lifestyle.",
+                    "testimonials": []
+                }
+            ],
+            "task_name": "Presentation Design",
+            "updated_at": "2025-03-02T13:53:18.709000",
+            "user": "AI"
+        },
+        {
+            "_id": "67c415806f28747f0f995c5c",
+            "chat_message_id": "389",
+            "session_id": "8",
+            "timestamp": "2025-03-02T13:53:28.139827",
+            "message_number": 3406,
+            "Type": "posts",
+            "message": "I have created five highly engaging LinkedIn posts optimized for visibility and engagement.",
+            "content": [
+                {
+                    "post_title": "Success Stories in Healthcare",
+                    "caption": "Discover how our SmartFit Pro Watch transformed the fitness routines of medical professionals. 🩺💪 #HealthTech #Fitness #SmartFitPro",
+                    "hashtags": [
+                        "#HealthTech",
+                        "#Fitness",
+                        "#SmartFitPro"
+                    ],
+                    "call_to_action": "Join the health revolution now!"
+                },
+                {
+                    "post_title": "Tech Enthusiasts, This Is For You!",
+                    "caption": "Unleash the power of technology with the SmartFit Pro Watch. 🚀⌚ #TechGadgets #Innovation #SmartFitPro",
+                    "hashtags": [
+                        "#TechGadgets",
+                        "#Innovation",
+                        "#SmartFitPro"
+                    ],
+                    "call_to_action": "Upgrade your tech game today!"
+                },
+                {
+                    "post_title": "Fitness Fanatics Community Alert!",
+                    "caption": "Calling all fitness enthusiasts! The SmartFit Pro Watch is here to elevate your workout experience. 🏋️‍♂️🔥 #FitnessCommunity #Workout #SmartFitPro",
+                    "hashtags": [
+                        "#FitnessCommunity",
+                        "#Workout",
+                        "#SmartFitPro"
+                    ],
+                    "call_to_action": "Experience fitness like never before!"
+                },
+                {
+                    "post_title": "Fashion & Fitness Fusion",
+                    "caption": "Style meets functionality with the SmartFit Pro Watch - the ultimate accessory for the modern trendsetter. 👟⌚ #FashionTech #Style #SmartFitPro",
+                    "hashtags": [
+                        "#FashionTech",
+                        "#Style",
+                        "#SmartFitPro"
+                    ],
+                    "call_to_action": "Upgrade your style with SmartFit Pro!"
+                },
+                {
+                    "post_title": "Wellness Warriors, This Is Your Weapon!",
+                    "caption": "Empower your wellness journey with the SmartFit Pro Watch - your reliable companion for a healthier lifestyle. 🧘‍♀️💚 #Wellness #Health #SmartFitPro",
+                    "hashtags": [
+                        "#Wellness",
+                        "#Health",
+                        "#SmartFitPro"
+                    ],
+                    "call_to_action": "Start your wellness revolution today!"
+                }
+            ],
+            "task_name": "Social Media Content Creation",
+            "updated_at": "2025-03-02T13:53:27.995000",
+            "user": "AI"
+        },
+        {
+            "_id": "67c415816f28747f0f995c5d",
+            "chat_message_id": "389",
+            "session_id": "8",
+            "timestamp": "2025-03-02T13:53:28.470561",
+            "message_number": 3407,
+            "Type": "box",
+            "message": "{\"Sales Brochure Specialist\": \"COMPLETED\", \"Email Template Creation\": \"COMPLETED\", \"Product Description Writing\": \"COMPLETED\", \"Presentation Design\": \"COMPLETED\", \"Social Media Content Creation\": \"COMPLETED\"}",
+            "task_name": "RESULT",
+            "user": "AI",
+            "retry": "True"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+.custom-scrollbar {
+    /* Firefox scrollbar */
+    scrollbar-width: thin;
+    scrollbar-color: hsl(var(--bc) / 0.2) transparent;
+}
+
+/* WebKit (Chrome, Safari, newer Edge) scrollbar styles */
+.custom-scrollbar::-webkit-scrollbar {
+    width: 4px; /* Very thin by default */
+    transition: width 0.3s ease;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+    transition: background 0.3s ease;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: hsl(var(--bc) / 0.2); /* Very transparent */
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
+/* Hover state - more pronounced scrollbar */
+.custom-scrollbar:hover::-webkit-scrollbar {
+    width: 8px; /* Wider on hover */
+}
+
+.custom-scrollbar:hover::-webkit-scrollbar-track {
+    background: hsl(var(--base-200) / 0.5); /* Slight background on hover */
+}
+
+.custom-scrollbar:hover::-webkit-scrollbar-thumb {
+    background-color: hsl(var(--bc) / 0.5); /* More visible on hover */
+}
+
+/* Active scrolling state */
+.custom-scrollbar:hover::-webkit-scrollbar-thumb:active {
+    background-color: hsl(var(--bc) / 0.7);
+}

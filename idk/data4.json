@@ -1,0 +1,40 @@
+{
+    "_id": "67c95ce66f28747f0f9983a6",
+    "chat_message_id": "402",
+    "session_id": "14",
+    "timestamp": "2025-03-06T13:59:26.270375",
+    "message_number": 3631,
+    "Type": "survey out",
+    "message": "Analyzing customer engagement and CRM strategies for Apple - iPhone 15 targeting Retail Consumers based on social media interactions, Google Reviews, Twitter Mentions, and last 12 months sales data.",
+    "content": {
+      "topic": "Analyzing Customer Engagement and CRM Strategies for Apple - iPhone 15 among Retail Consumers",
+      "survey_title": "Apple iPhone 15 Customer Satisfaction Survey",
+      "target_audience": "Retail Consumers of Apple - iPhone 15",
+      "questions": [
+        {
+          "question": "How satisfied are you with your overall experience using the Apple iPhone 15?",
+          "question_type": "Rating Scale (1-5)"
+        },
+        {
+          "question": "What features of the iPhone 15 do you find most appealing or valuable?",
+          "question_type": "Open Text"
+        },
+        {
+          "question": "Have you engaged with Apple's iPhone 15 content on social media? If yes, please share your thoughts.",
+          "question_type": "Multiple Choice (Yes/No) with Open Text Field"
+        },
+        {
+          "question": "Based on your experience and interactions, how likely are you to recommend the iPhone 15 to friends or family?",
+          "question_type": "Rating Scale (1-10)"
+        },
+        {
+          "question": "How would you rate your interactions with Apple's customer service regarding the iPhone 15?",
+          "question_type": "Rating Scale (1-5)"
+        }
+      ],
+      "deployment_plan": "The survey will be distributed via email to a segmented list of Apple iPhone 15 customers. It will also be shared on Apple's social media platforms with a personalized message encouraging participation. Responses will be collected over a two-week period, with reminders sent out to non-respondents."
+    },
+    "task_name": "Survey Specialist",
+    "updated_at": "2025-03-06T13:59:26.157000",
+    "user": "AI"
+  }

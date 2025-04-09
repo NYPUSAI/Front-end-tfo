@@ -1,0 +1,203 @@
+{
+    "action": "show_messages",
+    "messages": [
+        {
+            "_id": "67c8112a48bb2319e3fe31c1",
+            "chat_message_id": "394",
+            "session_id": "15",
+            "message_number": 3577,
+            "timestamp": "2025-03-05T14:24:02.904000",
+            "user": "user",
+            "form": {
+                "industry_sector": "it",
+                "target_market": "mobile",
+                "timeframe": "30 days",
+                "data_source": "linkedin"
+            }
+        },
+        {
+            "_id": "67c811336f28747f0f997e2b",
+            "chat_message_id": "394",
+            "session_id": "15",
+            "timestamp": "2025-03-05T14:24:09.181689",
+            "message_number": 3578,
+            "Type": "Analysis report",
+            "message": "Detailed report on market trends with visual data on IT with a focus on mobile over the last 30 days using data from LinkedIn.",
+            "content": {
+                "industry_sector": "Information Technology",
+                "trends_summary": [
+                    {
+                        "trend": "Increase in mobile usage on LinkedIn",
+                        "impact": "Higher engagement with mobile content",
+                        "confidence_level": 0.8
+                    },
+                    {
+                        "trend": "Growth of creator analytics on LinkedIn mobile app",
+                        "impact": "Improved insights for content creators",
+                        "confidence_level": 0.7
+                    },
+                    {
+                        "trend": "Emphasis on mobile app performance for LinkedIn content",
+                        "impact": "Importance of optimizing content for mobile viewers",
+                        "confidence_level": 0.9
+                    }
+                ],
+                "data_sources": [
+                    "LinkedIn Analytics",
+                    "Google Trends"
+                ]
+            },
+            "task_name": "Market Research Analyst",
+            "updated_at": "2025-03-05T14:24:08.935000",
+            "user": "AI"
+        },
+        {
+            "_id": "67c8113c6f28747f0f997e2c",
+            "chat_message_id": "394",
+            "session_id": "15",
+            "timestamp": "2025-03-05T14:24:18.103195",
+            "message_number": 3579,
+            "Type": "swot analysis",
+            "message": "SWOT analysis report highlighting key insights",
+            "content": {
+                "strengths": [
+                    {
+                        "name": "Increased mobile usage on LinkedIn",
+                        "description": "Higher engagement with mobile content can lead to more effective outreach and communication with the target audience.",
+                        "implications": null
+                    },
+                    {
+                        "name": "Growth of creator analytics on LinkedIn mobile app",
+                        "description": "Improved insights for content creators can help tailor sales campaigns to better meet customer preferences and behavior.",
+                        "implications": null
+                    }
+                ],
+                "weaknesses": [
+                    {
+                        "name": "Emphasis on mobile app performance for LinkedIn content",
+                        "description": "Challenges may arise in optimizing content effectively for mobile viewers, impacting campaign effectiveness.",
+                        "implications": null
+                    }
+                ],
+                "opportunities": [
+                    {
+                        "name": "Expansion of mobile-focused sales campaigns",
+                        "description": "Utilizing the increased mobile usage trend on LinkedIn to reach a larger audience and generate more leads.",
+                        "implications": null
+                    }
+                ],
+                "threats": [
+                    {
+                        "name": "Competitive environment on mobile platforms",
+                        "description": "Increased competition for visibility and engagement on mobile devices, requiring innovative strategies to stand out.",
+                        "implications": null
+                    }
+                ],
+                "strategic_insights": "The focus on mobile usage trends presents an opportunity for sales campaigns to leverage improved insights and engagement, but challenges in optimizing content and potential threats from competitors need to be addressed strategically to maximize campaign effectiveness."
+            },
+            "task_name": "SWOT Analysis Evaluator",
+            "updated_at": "2025-03-05T14:24:17.938000",
+            "user": "AI"
+        },
+        {
+            "_id": "67c811446f28747f0f997e2d",
+            "chat_message_id": "394",
+            "session_id": "15",
+            "timestamp": "2025-03-05T14:24:26.550789",
+            "message_number": 3580,
+            "Type": "competitor analyst",
+            "message": "Competitor analysis report with strategic recommendations",
+            "content": {
+                "competitors": [
+                    {
+                        "competitor_name": "Competitor A",
+                        "differentiating_strategy": "Focused on targeted mobile advertising to specific industry sectors on LinkedIn",
+                        "market_positioning": "Positioned as a leader in mobile content optimization for B2B engagement"
+                    },
+                    {
+                        "competitor_name": "Competitor B",
+                        "differentiating_strategy": "Leveraging LinkedIn analytics to personalize mobile content for enhanced user engagement",
+                        "market_positioning": "Emphasizing real-time performance tracking for mobile campaigns"
+                    }
+                ],
+                "recommendations": "Based on the analysis, it is recommended for the company to enhance mobile-specific content strategies and leverage LinkedIn analytics for personalized engagement. Additionally, optimizing mobile app performance for content delivery is crucial for staying competitive in the market.",
+                "risk_factors": [
+                    "Possible risk of falling behind in mobile content personalization compared to competitors",
+                    "Risk of overlooking emerging mobile marketing trends on LinkedIn"
+                ]
+            },
+            "task_name": "Competitor Analyst",
+            "updated_at": "2025-03-05T14:24:26.462000",
+            "user": "AI"
+        },
+        {
+            "_id": "67c8114e6f28747f0f997e2e",
+            "chat_message_id": "394",
+            "session_id": "15",
+            "timestamp": "2025-03-05T14:24:36.188870",
+            "message_number": 3581,
+            "Type": "price report",
+            "message": "Dynamic pricing model documentation",
+            "content": {
+                "model_description": "The dynamic pricing model will adapt to market conditions and competitor pricing trends with a focus on mobile over the last 30 days using data from LinkedIn. It will leverage real-time data from LinkedIn analytics and external sources to adjust pricing strategies accordingly.",
+                "factors_considered": [
+                    {
+                        "factor": "Competitor Pricing Strategies",
+                        "influence": "Understanding how competitors price their mobile apps on LinkedIn will help in setting competitive prices and differentiating our offering.",
+                        "data_source": null
+                    },
+                    {
+                        "factor": "Market Trends in Mobile App Pricing on LinkedIn",
+                        "influence": "Being aware of the latest trends in mobile app pricing on LinkedIn will provide insights into evolving customer preferences and industry standards.",
+                        "data_source": null
+                    }
+                ],
+                "pricing_strategy": "The pricing strategy will involve using a value-based pricing approach to reflect the perceived value of our mobile app features and services. Dynamic pricing algorithms will be employed to adjust prices based on demand and competitor actions.",
+                "profitability_forecast": "The dynamic pricing model is expected to enhance profitability by optimizing pricing strategies in response to market changes and competitor movements."
+            },
+            "task_name": "Pricing Strategist",
+            "updated_at": "2025-03-05T14:24:36.100000",
+            "user": "AI"
+        },
+        {
+            "_id": "67c811546f28747f0f997e2f",
+            "chat_message_id": "394",
+            "session_id": "15",
+            "timestamp": "2025-03-05T14:24:42.015050",
+            "message_number": 3582,
+            "Type": "sales pitch",
+            "message": "Customized sales pitch documents for various demographics",
+            "content": {
+                "target_demographic": "Different demographics interested in mobile marketing trends on LinkedIn",
+                "pitch_content": "Unlock the power of mobile marketing trends on LinkedIn tailored specifically for your demographic. With the increasing mobile usage trend on LinkedIn, you can engage more effectively with your target audience and drive higher conversion rates. Discover how the growth of creator analytics on the LinkedIn mobile app can provide you with valuable insights to tailor your sales campaigns for optimal results.",
+                "key_persuasion_points": [
+                    {
+                        "point": "Higher engagement with mobile content on LinkedIn",
+                        "supporting_evidence": "According to LinkedIn analytics, mobile usage has shown a significant increase, indicating a prime opportunity to reach and engage with your audience on a platform they actively use on their smartphones."
+                    },
+                    {
+                        "point": "Improved insights for content creators",
+                        "supporting_evidence": "Utilizing the creator analytics tools on the LinkedIn mobile app can help you understand your audience better and create targeted campaigns that resonate with their preferences, leading to higher engagement and conversion rates."
+                    }
+                ],
+                "call_to_action": "Take advantage of these mobile trends on LinkedIn to elevate your marketing strategies and stay ahead of the competition. Contact us today to explore how we can customize a solution for your demographic.",
+                "estimated_conversion_rate": 0.75
+            },
+            "task_name": "Tailored Sales Pitch Specialist",
+            "updated_at": "2025-03-05T14:24:41.931000",
+            "user": "AI"
+        },
+        {
+            "_id": "67c811546f28747f0f997e30",
+            "chat_message_id": "394",
+            "session_id": "15",
+            "timestamp": "2025-03-05T14:24:42.478193",
+            "message_number": 3583,
+            "Type": "box",
+            "message": "{\"Market Research Analyst\": \"COMPLETED\", \"Code Interpreter Tool\": \"PENDING\", \"SWOT Analysis Evaluator\": \"COMPLETED\", \"Competitor Analyst\": \"COMPLETED\", \"Pricing Strategist\": \"COMPLETED\", \"Tailored Sales Pitch Specialist\": \"COMPLETED\"}",
+            "task_name": "RESULT",
+            "user": "AI",
+            "retry": "False"
+        }
+    ]
+}
