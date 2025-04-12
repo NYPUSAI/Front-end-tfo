@@ -25,12 +25,15 @@ import {
   Loader,
 } from "lucide-react";
 import { useGraphStore } from "../store/useGraphStore";
+import { useChatStore } from "../store/useChatStore";
 
 const GraphPage = () => {
   const { GraphData, GetGraphData, GraphDataLoading } = useGraphStore();
+  const { SetTeamSelectedToFalse } = useChatStore();
 
   // console.log(GraphData, "insidegraphdata");
   useEffect(() => {
+    SetTeamSelectedToFalse()
     GetGraphData();
   }, []);
 

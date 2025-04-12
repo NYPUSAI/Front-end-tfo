@@ -174,7 +174,7 @@ const FetchedBubbles = () => {
                         </div>
                       )}
                     </>
-                  ) : msg.Type === "discription" ? (
+                  ) : msg.Type === "description" ? (
                     <>
                       <div
                         className="formatted-text"

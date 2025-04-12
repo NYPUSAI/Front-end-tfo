@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { FileText, Link } from "lucide-react";
 import { useResourcesStore } from "../store/useResourcesStore";
 import toast from "react-hot-toast";
+import { useChatStore } from "../store/useChatStore";
 
 const Resources = () => {
   const {
@@ -10,6 +11,7 @@ const Resources = () => {
     isResourcesDataLoading,
     EditResourcesData,
   } = useResourcesStore();
+  const { SetTeamSelectedToFalse } = useChatStore();
 
   const [itSetupLink, setItSetupLink] = useState("");
   const [itSetupInstructions, setItSetupInstructions] = useState("");
@@ -17,6 +19,7 @@ const Resources = () => {
   const [policyDocument, setPolicyDocument] = useState(null);
 
   useEffect(() => {
+    SetTeamSelectedToFalse();
     FetchResourcesData();
   }, []);
 

@@ -110,6 +110,10 @@ export const useChatStore = create((set, get) => ({
         // console.log(`Team selected: ${team}, resetting chat states.`);
     },
 
+    SetTeamSelectedToFalse: () => {
+        set({isTeamSelected: false})
+    },
+
     setHistoryModal: (isOpen) => set({ isHistoryModalOpen: isOpen }),
 
     updateChatId: (id) => {
