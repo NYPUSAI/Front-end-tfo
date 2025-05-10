@@ -20,6 +20,7 @@ import {
 import { useNavigate } from "react-router-dom";
 import { useSettingsStore } from "../store/useSettingsStore";
 import toast from "react-hot-toast";
+import { useChatStore } from "../store/useChatStore";
 
 const SettingsPage = () => {
   const { theme, setTheme } = useThemeStore();
@@ -30,6 +31,8 @@ const SettingsPage = () => {
     isSettingsDataLoading,
     EditSettingsData,
   } = useSettingsStore();
+  const { SetTeamSelectedToFalse } = useChatStore();
+
   const navigate = useNavigate();
 
   const [showPassword, setShowPassword] = useState(false);
@@ -59,6 +62,7 @@ const SettingsPage = () => {
   });
 
   useEffect(() => {
+    SetTeamSelectedToFalse();
     FetchSettingsData();
   }, []);
 
@@ -421,11 +425,7 @@ const SettingsPage = () => {
                     }`}
                     value={formData.linkedin_api.auth_head}
                     onChange={(e) =>
-                      handleChange(
-                        "linkedin_api",
-                        "auth_head",
-                        e.target.value
-                      )
+                      handleChange("linkedin_api", "auth_head", e.target.value)
                     }
                   />
                   {errors.linkedin_api.auth_head && (

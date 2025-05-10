@@ -119,7 +119,7 @@ const CurrentBubbles = () => {
                           </div>
                         )}
                     </>
-                  ) : msg?.message?.Type === "discription" ? (
+                  ) : msg?.message?.Type === "description" ? (
                     <>
                       <div
                         className="formatted-text "

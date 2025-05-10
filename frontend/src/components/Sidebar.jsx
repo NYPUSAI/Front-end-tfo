@@ -118,10 +118,10 @@ const Sidebar = () => {
 
         {/* Render additional departments as standalone buttons */}
         {additionalDepartments.map((department) => {
-          const Icon = departmentIcons[department] || Group;
+          const Icon = departmentIcons[department] || Group; 
           return (
             <button
-              key={department}
+              key={department} 
               onClick={() => handleDepartmentClick(department)}
               className="w-full bg-base-200 mb-2 p-3 flex items-center gap-3 hover:bg-base-300 transition-colors text-lg font-medium rounded-md"
             >
